@@ -1,4 +1,4 @@
-Scripts that make local Metabase development handier. Currently these only consist of scripts for running different
+Scripts that make local Metabase development handier. Currently, these only consist of scripts for running different
 databases we support like MySQL or Spark SQL locally, but we can add scripts for other stuff in the future if we think
 of anything good.
 
@@ -6,7 +6,7 @@ Please feel free to collaborate and improve these scripts or add new ones!
 
 ### Database Scripts
 
-These scripts run the same Docker images with the same env vars we use in CI and then dump out some useful info for
+These scripts run the same Docker images with the same env vars we use in CI, and then dump out some useful info for
 using them. They also nuke the existing image when you run the script a second time so you can just run it again to
 completely reset the DB e.g. when running tests.
 
